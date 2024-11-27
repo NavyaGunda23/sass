@@ -1,0 +1,60 @@
+/* CSS reference: https://www.wix.com/velo/reference/$w/styling-elements-with-css */
+ 
+/* These CSS styles will be applied globally to every page of this site. Write your CSS here, e.g.: */
+
+/*  Change button background color to red: */
+/* .button {
+    background-color: red;
+} */
+.gradientTop{
+    background: linear-gradient(to bottom, #0F1D22,rgba(15,29,34,0))
+}
+.gradientLeftGreen{
+    background: linear-gradient(to left, #D7F0F0,rgba(215,240,240,0))
+}
+.capitalLetter{
+    text-transform: uppercase;
+}
+.opacity05{
+    opacity: 5%;
+}
+.opacity30{
+    opacity: 30%;
+}
+.opacity0{
+    opacity: 0%;
+}
+.insightsContainer div.insightsItem::nth-of-type(odd){
+    margin-top: 100px;
+}
+.textactive > *{
+    color: #fff !important;
+}
+.servicerepeator .servicecontainer:nth-child(even) {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+zindex9{
+    z-index: 999;
+}
+.activeLine {
+border-color: #CF0889;
+}
+.textActive *{
+    color: #CF0889;
+}
+.tabhoverText *:hover{
+ color: #CF0889;
+ border-color: #CF0889;
+}
+@media only screen and (max-width: 600px) {
+
+form *{
+    font-size: 14px !important;
+}
+}
+
+
+*{
+    font-display: swap !important;
+}
